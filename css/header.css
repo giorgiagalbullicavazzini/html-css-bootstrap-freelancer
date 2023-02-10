@@ -1,4 +1,8 @@
 header {
   background-color: var(--header-footer-color);
+  color: var(--bs-white);
+}
+
+header .row {
   height: 90px;
 }
