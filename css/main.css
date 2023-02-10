@@ -9,3 +9,31 @@ main section:nth-child(even) {
 main #jumbotron {
   color: var(--bs-white);
 }
+
+main #portfolio .row .col {
+  height: 100px;
+}
+
+main #portfolio .row #house-work {
+  background-color: var(--house-work-color);
+}
+
+main #portfolio .row #cake-work {
+  background-color: var(--cake-work-color);
+}
+
+main #portfolio .row #circus-work {
+  background-color: var(--circus-work-color);
+}
+
+main #portfolio .row #pad-work {
+  background-color: var(--pad-work-color);
+}
+
+main #portfolio .row #safe-work {
+  background-color: var(--safe-work-color);
+}
+
+main #portfolio .row #sub-work {
+  background-color: var(--sub-work-color);
+}
