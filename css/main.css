@@ -3,7 +3,7 @@ main section:nth-child(odd) {
 }
 
 main section:nth-child(even) {
-  background-color: #ffffff;
+  background-color: var(--bs-white);
 }
 
 main #jumbotron {
