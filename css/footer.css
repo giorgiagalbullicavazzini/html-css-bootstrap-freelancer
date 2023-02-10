@@ -1,9 +1,14 @@
 #footer-top {
   background-color: #3a546d;
-  height: 100px;
 }
 
 #footer-bottom {
   background-color: var(--header-footer-color);
+  color: var(--bs-white);
   height: 110px;
+}
+
+footer .row .col {
+  background-color: violet;
+  height: 100px;
 }
