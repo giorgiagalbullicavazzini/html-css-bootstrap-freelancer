@@ -1,11 +1,11 @@
-main section {
-  height: 100px;
-}
-
 main section:nth-child(odd) {
   background-color: #1abc9c;
 }
 
 main section:nth-child(even) {
   background-color: #ffffff;
+}
+
+main #jumbotron {
+  color: var(--bs-white);
 }
