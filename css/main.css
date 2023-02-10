@@ -1,16 +1,18 @@
 main section:nth-child(odd) {
   background-color: #1abc9c;
+  color: var(--bs-white);
 }
 
 main section:nth-child(even) {
   background-color: var(--bs-white);
+  color: #333333;
 }
 
 main #jumbotron {
   color: var(--bs-white);
 }
 
-main #portfolio .row .col {
+main .row .col {
   height: 100px;
 }
 
@@ -36,4 +38,8 @@ main #portfolio .row #safe-work {
 
 main #portfolio .row #sub-work {
   background-color: var(--sub-work-color);
+}
+
+main #about .col {
+  background-color: violet;
 }
