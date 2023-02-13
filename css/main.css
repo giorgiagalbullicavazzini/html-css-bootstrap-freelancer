@@ -8,12 +8,18 @@ main section:nth-child(even) {
   color: #333333;
 }
 
-main #jumbotron {
-  color: var(--bs-white);
+main img {
+  display: block;
+  width: 100%;
 }
 
-main .row .col {
-  height: 100px;
+main #jumbotron {
+  color: var(--bs-white);
+  text-transform: uppercase;
+}
+
+main #jumbotron img {
+  height: 250px;
 }
 
 main #portfolio .row #house-work {
