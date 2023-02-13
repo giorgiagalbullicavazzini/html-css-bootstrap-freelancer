@@ -7,6 +7,25 @@ header .row {
   height: 90px;
 }
 
-header .row .col {
-  background-color: violet;
+header .navbar-light .navbar-brand,
+header .navbar-light .navbar-brand:focus,
+header .navbar-light .navbar-brand:hover,
+header .navbar-light .navbar-nav .nav-link,
+header .navbar-light .navbar-nav .nav-link:focus,
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: var(--bs-white);
+  text-transform: uppercase;
+}
+
+header .navbar-light .navbar-toggler {
+  border-color: var(--bs-white);
+  padding: 0.25rem 0.5rem;
+}
+
+header .navbar-light .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+header .navbar-light .navbar-toggler-icon {
+  filter: brightness(0) invert(0.7);
 }
