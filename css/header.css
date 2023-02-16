@@ -7,3 +7,15 @@ header {
 header .navbar-light .navbar-toggler-icon {
   filter: brightness(0) invert(0.7);
 }
+
+/*
+==============
+Responsive
+==============
+*/
+
+@media screen and (min-width: 768px) {
+  header .navbar-brand {
+    font-size: 1.875rem;
+  }
+}
