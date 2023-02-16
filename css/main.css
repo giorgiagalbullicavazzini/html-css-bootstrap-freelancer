@@ -100,10 +100,12 @@ Responsive
 ==============
 */
 
-main h1 {
-  font-size: 3.4375rem;
-}
-
-main #jumbotron .col:last-child {
-  font-size: 1.5625rem;
+@media screen and (min-width: 768px) {
+  main h1 {
+    font-size: 3.4375rem;
+  }
+  
+  main #jumbotron .col:last-child {
+    font-size: 1.5625rem;
+  }
 }
