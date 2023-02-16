@@ -1,29 +1,7 @@
 header {
   background-color: var(--header-footer-color);
   color: var(--bs-white);
-}
-
-header .row {
-  height: 90px;
-}
-
-header .navbar-light .navbar-brand,
-header .navbar-light .navbar-brand:focus,
-header .navbar-light .navbar-brand:hover,
-header .navbar-light .navbar-nav .nav-link,
-header .navbar-light .navbar-nav .nav-link:focus,
-header .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--bs-white);
-  text-transform: uppercase;
-}
-
-header .navbar-light .navbar-toggler {
-  border-color: var(--bs-white);
-  padding: 0.25rem 0.5rem;
-}
-
-header .navbar-light .navbar-toggler:focus {
-  box-shadow: none;
+  padding: .0625rem 0;
 }
 
 header .navbar-light .navbar-toggler-icon {
