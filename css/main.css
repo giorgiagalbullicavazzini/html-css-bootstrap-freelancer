@@ -19,6 +19,31 @@ main img {
   width: 100%;
 }
 
+main .fa-star {
+  font-size: 1.75rem;
+}
+
+main span::before,
+main span::after {
+  background-color: var(--bs-white);
+  border-radius: 1.5625rem;
+  content: "";
+  display: inline-block;
+  height: .25rem;
+  max-width: 7.5rem;
+  vertical-align: middle;
+  width: 15%;
+}
+
+main section:nth-child(even) .fa-star {
+  color: var(--odd-star-color);
+}
+
+main section:nth-child(even) span::before,
+main section:nth-child(even) span::after {
+  background-color: var(--odd-star-color);
+}
+
 /*
 ==============
 Jumbotron
@@ -31,22 +56,6 @@ main #jumbotron {
 
 main #jumbotron img {
   height: 15.625rem;
-}
-
-main #jumbotron .col i {
-  font-size: 1.75rem;
-}
-
-main #jumbotron .col span::before,
-main #jumbotron .col span::after {
-  background-color: var(--bs-white);
-  border-radius: 1.5625rem;
-  content: "";
-  display: inline-block;
-  height: .25rem;
-  max-width: 7.5rem;
-  vertical-align: middle;
-  width: 15%;
 }
 
 main #jumbotron .col:last-child {
