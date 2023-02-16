@@ -1,3 +1,9 @@
+/*
+==============
+Common
+==============
+*/
+
 main section:nth-child(odd) {
   background-color: #1abc9c;
   color: var(--bs-white);
@@ -5,7 +11,7 @@ main section:nth-child(odd) {
 
 main section:nth-child(even) {
   background-color: var(--bs-white);
-  color: #333333;
+  color: var(--second-text-color);
 }
 
 main img {
@@ -13,14 +19,46 @@ main img {
   width: 100%;
 }
 
+/*
+==============
+Jumbotron
+==============
+*/
+
 main #jumbotron {
   color: var(--bs-white);
-  text-transform: uppercase;
 }
 
 main #jumbotron img {
-  height: 250px;
+  height: 15.625rem;
 }
+
+main #jumbotron .col i {
+  font-size: 1.75rem;
+}
+
+main #jumbotron .col span::before,
+main #jumbotron .col span::after {
+  background-color: var(--bs-white);
+  border-radius: 1.5625rem;
+  content: "";
+  display: inline-block;
+  height: .25rem;
+  max-width: 7.5rem;
+  vertical-align: middle;
+  width: 15%;
+}
+
+main #jumbotron .col:last-child {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/*
+==============
+Portfolio
+==============
+*/
 
 main #portfolio .row #house-work {
   background-color: var(--house-work-color);
@@ -45,6 +83,12 @@ main #portfolio .row #safe-work {
 main #portfolio .row #sub-work {
   background-color: var(--sub-work-color);
 }
+
+/*
+==============
+About
+==============
+*/
 
 main #about .col {
   background-color: violet;
